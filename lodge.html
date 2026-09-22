@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lodge a Grievance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Grievance System</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="lodge.html">Lodge Grievance</a>
+            <a href="track.html">Track Grievance</a>
+        </div>
+    </nav>
+
+    <h1>Lodge a Grievance</h1>
+
+    <form id="grievanceForm">
+
+        <label>Your Name</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Email</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Grievance Category</label><br>
+
+        <select>
+            <option>Select Category</option>
+            <option>Education</option>
+            <option>Infrastructure</option>
+            <option>Transport</option>
+            <option>Finance</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Describe Your Grievance</label><br>
+
+        <textarea rows="6" placeholder="Explain your grievance here..."></textarea><br><br>
+
+        <label>Upload Photo of the Issue</label><br>
+
+        <input type="file" accept="image/*"><br><br>
+
+        <button type="submit">Submit Grievance</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
